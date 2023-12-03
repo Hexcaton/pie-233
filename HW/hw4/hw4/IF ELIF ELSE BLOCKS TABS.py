@@ -9,3 +9,4 @@ if ticket_num.isdigit() and ticket_num[0].isdigit() and ticket_num[1].isdigit() 
         print("Обычный")
 else:
     print("Некорректный ввод. Введите шестизначное число.")
+
