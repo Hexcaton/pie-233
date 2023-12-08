@@ -7,4 +7,4 @@ quantity = int(input("Введите количество предметов, к
 print('Введите цены на товары:')
 price_list = list(map(int, input().split()))
 result = BringMoney(quantity, price_list)
-print(result)
+print(result, price_list)
